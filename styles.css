@@ -1,476 +1,480 @@
 /* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
 
 .primero {
-    background-color:#f7de82;
-    display: block;
-    height: 650px;
+  background-color: #f7de82;
+  display: block;
+  height: 650px;
 }
 
 .titulo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10% 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10% 10px 10%;
 }
 
-.lista{
-    width: auto;
-    height: auto;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
+.lista {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
 }
 .li {
-padding: 10px 30px 10px 30px;
-color: #0005ff;
+  padding: 10px 30px 10px 30px;
+  color: #0005ff;
 }
 
-#icono{
-    align-items: center;
+#icono {
+  align-items: center;
+  color: white;
+}
+
+#carrito {
+  border-radius: 60px;
+  border: 2px solid black;
+  background-color: #0005ff;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .conteinerUno {
-    text-align: left;
-    justify-items: center;
-    margin: 150px 150px 150px 130px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
+  text-align: left;
+  justify-items: center;
+  margin: 150px 150px 150px 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
     /* "pokeUno"
     "pokeDos"
     "pokeTres"; */
     "uno dos"
     "tres";
-    column-gap: 10px;
+  column-gap: 10px;
 }
 
-.divsito{
-    grid-column: 1;
-    height: auto;
-    width: auto;
+.divsito {
+  grid-column: 1;
+  height: auto;
+  width: auto;
 }
 
-.pokeUno{
-    padding-top: 12px;
+.pokeUno {
+  padding-top: 12px;
 }
 
-.divsitoDos{
-    grid-column: 2;
-    grid-row: 1/3;
-    width: auto;
+.divsitoDos {
+  grid-column: 2;
+  grid-row: 1/3;
+  width: auto;
 }
 
 .pokeDos {
-    width: 300px;
+  width: 300px;
 }
 
-.pokeTres{
-    grid-column: 1;
-    width: auto;
-    height: auto;
-    font-size: 20px;
+.pokeTres {
+  grid-column: 1;
+  width: auto;
+  height: auto;
+  font-size: 20px;
 }
-
 
 .botoncito {
-    width: 180px;
-    font-size: 12px;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: #f7de82;
-    background-color:#0005ff;
-    grid-column: 1;
-    padding: 10px;
-    letter-spacing: 2px;
-    cursor: pointer;
+  width: 180px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #f7de82;
+  background-color: #0005ff;
+  grid-column: 1;
+  padding: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
-.conteinerDos{
-    text-align: center;
-    padding: 30px;
-    background-color: #0005ff;
+.conteinerDos {
+  text-align: center;
+  padding: 30px;
+  background-color: #0005ff;
 }
 
-h1{
-    color: #f7de82;
-    font-size: 60px;
-    height: 50px;
+h1 {
+  color: #f7de82;
+  font-size: 60px;
+  height: 50px;
 }
 
 .texto {
-    color: honeydew;
+  color: honeydew;
 }
 
 .divTarjetas {
-    padding: 50px 10px 50px 10px;
-    display: flex;
-    justify-content: space-around;
-    
+  padding: 50px 10px 50px 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .tarjetaAgua {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .tarjetaRayo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .tarjetaFuego {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}  
-
-.textoSegundo{
-    color:honeydew;
-    width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.conteinerTres{
-    background-color: white;
-    padding: 50px;
-    text-align: center;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
+.textoSegundo {
+  color: honeydew;
+  width: 200px;
+}
+
+.conteinerTres {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-areas:
     "uno dos tres"
     "cuatro cinco seis";
-    gap: 10px;
+  gap: 10px;
 }
 
-h2{
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 3px;
+h2 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
-.tarjetaUno{
-    width: 300px;
-    padding: 15px;
-    border: 1px solid black;
-    border-radius: 30px;
-    box-shadow: 11px 12px 5px 0px rgba(0,0,0,0.41);
--webkit-box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.41);
--moz-box-shadow: 11px 12px 5px 0px rgba(0,0,0,0.41);
+.tarjetaUno {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 11px 12px 5px 0px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 11px 12px 5px 0px rgba(0, 0, 0, 0.41);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.botoncitoDos{
-    width: 100px;
-    background: #f7de82;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
-    cursor: pointer;
+.botoncitoDos {
+  width: 100px;
+  background: #f7de82;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 h3 {
-    font-size: 30px;
-    letter-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 .pTarjetas {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .Stock {
-    background-color: red;
-    font-size: 20px;
-    margin: 0 auto;
-    color: white;
-    width: 190px;
+  background-color: red;
+  font-size: 20px;
+  margin: 0 auto;
+  color: white;
+  width: 190px;
 }
 
 .botoncitoDosFuego {
-    width: 100px;
-    background: gray;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
+  width: 100px;
+  background: gray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
 }
 
 .cuarta {
-    background-color: rgb(184, 184, 184);
-    padding-bottom: 50px;
-
+  background-color: rgb(184, 184, 184);
+  padding: 10px 70px 10px 70px;
 }
 
 .tituloCuatro {
-    color: rgb(39, 50, 120);
-    text-align: center;
-    font-weight: normal;
+  color: rgb(39, 50, 120);
+  text-align: center;
+  font-weight: normal;
 }
 
 .pCuatro {
-    color: rgb(39, 50, 120);
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  color: rgb(39, 50, 120);
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .conteinerCuatro {
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 130px 50px 130px;
-    padding: 80px 50px 80px 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 130px 50px 130px;
+  padding: 80px 50px 80px 50px;
 }
 
 .agua {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .pAgua {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .rayo {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .pRayo {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .divPrecio {
-    display: flex;
-    text-align: left;
-    justify-content: flex-end;
+  display: flex;
+  text-align: left;
+  justify-content: flex-end;
 }
 
 .pPrecio {
-    padding-right: 10px;
-    font-weight:bold ;
-    color: #0005ff;
+  padding-right: 10px;
+  font-weight: bold;
+  color: #0005ff;
 }
 
 .bFinalizar {
-    background-color: #f7de82;
-    font-weight: bold;
-    color: black;
-    border-radius: 30px;
-    height: 45px;
-    width: 250px;
-    margin-left: 35%;
-    cursor: pointer;
+  background-color: #f7de82;
+  font-weight: bold;
+  color: black;
+  border-radius: 30px;
+  height: 45px;
+  width: 250px;
+  margin-left: 43%;
+  cursor: pointer;
 }
 
 .quinta {
-    background: #0005ff;
+  background: #0005ff;
 }
 
 .tituloFooter {
-    display: flex;
-    margin: auto;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .divFinal {
-    color: white;
-    display: flex;
-    justify-content: space-around;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 .h5Final {
-    display: flex;
-    justify-content: center;
-    color: white;
-    letter-spacing: 2px;
-    padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  letter-spacing: 2px;
+  padding-top: 30px;
 }
 
 @media (max-width: 640px) {
-
-    .conteinerUno {
-        text-align: left;
-        justify-items: center;
-        margin: 100px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
+  .conteinerUno {
+    text-align: left;
+    justify-items: center;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
         /* "pokeUno"
         "pokeDos"
         "pokeTres"; */
-        "uno dos"
-        "tres";
-        column-gap: 10px;
-    }
-    
-    .pokeUno {
-        width: 200px;
-    }
+      "uno dos"
+      "tres";
+    column-gap: 10px;
+  }
 
-    .divsito{
-        width: auto;
-    }
+  .pokeUno {
+    width: 200px;
+  }
 
-    .pokeDos {
-        width: 200px;
-    }
+  .divsito {
+    width: auto;
+  }
 
-    .divsitoDos {
-        width: 200px;
-    }
+  .pokeDos {
+    width: 200px;
+  }
 
-    .pokeTres{
-        font-size: 15px;
-    }
+  .divsitoDos {
+    width: 200px;
+  }
 
-    .botoncito {
-        width: 112px;
-        font-size: 9px;
-        padding: 5px;
-        letter-spacing: 0px;
-    }
+  .pokeTres {
+    font-size: 15px;
+  }
 
-    .primero {
-        background-color:#f7de82;
-        display: block;
-        height: 500px;
-    }
+  .botoncito {
+    width: 112px;
+    font-size: 9px;
+    padding: 5px;
+    letter-spacing: 0px;
+  }
 
-    h1 {
-        font-size: 30px;
-        height: 40px;
-    }
+  .primero {
+    background-color: #f7de82;
+    display: block;
+    height: 500px;
+  }
 
-    .divTarjetas {
-        padding: 50px 10px 50px 10px;
-        display: flex;
-        justify-content: space-around;
-        
-    }
-    
-    .tarjetaAgua {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  h1 {
+    font-size: 30px;
+    height: 40px;
+  }
 
-    .tarjetaAgua {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .divTarjetas {
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .tarjetaAgua {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }  
-    
-    .textoSegundo{
-        color:honeydew;
-        width: 200px;
-    }
+  .tarjetaAgua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .aguaLogo {
-        width: 80px;
-    }
+  .tarjetaAgua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .rayoLogo {
-        width: 80px;
-    }
+  .tarjetaAgua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .fuegoLogo {
-        width: 80px;
-    }
+  .textoSegundo {
+    color: honeydew;
+    width: 200px;
+  }
 
-    .textoSegundo {
-        color: honeydew;
-        width: 140px;
-        font-size: 15px;
-    }
+  .aguaLogo {
+    width: 80px;
+  }
 
-    .tarjetaUno{
-        width: 170px;
-        padding: 15px 0 0 0;
-    }
-    
-    .squirtle {
-        width: 70px;
-    }
+  .rayoLogo {
+    width: 80px;
+  }
 
-    .pikachu {
-        width: 70px;
-    }
+  .fuegoLogo {
+    width: 80px;
+  }
 
-    .charizard {
-        width: 70px;
-    }
+  .textoSegundo {
+    color: honeydew;
+    width: 140px;
+    font-size: 15px;
+  }
 
-    .botoncitoDos{
-        width: 88px;
-        padding: 2px;
-        margin: 10px;
-    }
-    
-    h3 {
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-    
-    .pTarjetas {
-        font-size: 17px;
-    }
-    
-    .Stock {
-        font-size: 14px;
-        width: 125px;
-    }
-    
-    .botoncitoDosFuego {
-        width: 88px;
-        padding: 2px;
-        margin: 10px;
-    }
+  .tarjetaUno {
+    width: 170px;
+    padding: 15px 0 0 0;
+  }
 
-    .pCuatro {
-        padding: 10px;
-    }
+  .squirtle {
+    width: 70px;
+  }
 
-    .conteinerCuatro {
-        margin: 50px;
-        padding: 65px 50px 65px 50px;
-    }
+  .pikachu {
+    width: 70px;
+  }
 
-    .bFinalizar {
-        margin: 10px 0 0 20%;
-    }
+  .charizard {
+    width: 70px;
+  }
+
+  .botoncitoDos {
+    width: 88px;
+    padding: 2px;
+    margin: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .pTarjetas {
+    font-size: 17px;
+  }
+
+  .Stock {
+    font-size: 14px;
+    width: 125px;
+  }
+
+  .botoncitoDosFuego {
+    width: 88px;
+    padding: 2px;
+    margin: 10px;
+  }
+
+  .pCuatro {
+    padding: 10px;
+  }
+
+  .conteinerCuatro {
+    margin: 50px;
+    padding: 65px 50px 65px 50px;
+  }
+
+  .bFinalizar {
+    margin: 10px 0 0 20%;
+  }
 }
 
-
-@media (min-width: 640px) and (max-width: 1000px){
-
-    .conteinerUno {
+@media (min-width: 640px) and (max-width: 1000px) {
+  .conteinerUno {
     text-align: left;
     justify-items: center;
     margin: 100px;
@@ -480,164 +484,161 @@ h3 {
     /* "pokeUno"
     "pokeDos"
     "pokeTres"; */
-    "uno dos"
-    "tres";
+      "uno dos"
+      "tres";
     column-gap: 10px;
-}
+  }
 
-.pokeUno {
+  .pokeUno {
     width: 400px;
-}
+  }
 
-
-.pokeDos {
+  .pokeDos {
     width: 300px;
-}
+  }
 
-.pokeTres{
+  .pokeTres {
     font-size: 20px;
-}
+  }
 
-.botoncito {
+  .botoncito {
     width: auto;
     font-size: 15px;
     padding: 10px;
     letter-spacing: 0px;
-}
+  }
 
-.primero {
-    background-color:#f7de82;
+  .primero {
+    background-color: #f7de82;
     display: block;
     height: 600px;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 45px;
     height: 40px;
-}
+  }
 
-.texto {
+  .texto {
     font-size: 20px;
     letter-spacing: 1px;
-}
+  }
 
-.divTarjetas {
+  .divTarjetas {
     padding: 50px 0px 50px 0px;
     display: flex;
     justify-content: space-around;
-    
-}
+  }
 
-.tarjetaAgua {
+  .tarjetaAgua {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.tarjetaAgua {
+  .tarjetaAgua {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.tarjetaAgua {
+  .tarjetaAgua {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}  
+  }
 
-.textoSegundo{
-    color:honeydew;
+  .textoSegundo {
+    color: honeydew;
     width: 200px;
-}
+  }
 
-.aguaLogo {
+  .aguaLogo {
     width: 100px;
-}
+  }
 
-.rayoLogo {
+  .rayoLogo {
     width: 100px;
-}
+  }
 
-.fuegoLogo {
+  .fuegoLogo {
     width: 100px;
-}
+  }
 
-.textoSegundo {
+  .textoSegundo {
     color: honeydew;
     width: 170px;
     font-size: 17px;
-}
+  }
 
-.conteinerTres {
+  .conteinerTres {
     align-items: center;
-}
+  }
 
-.tarjetaUno{
+  .tarjetaUno {
     width: 190px;
     padding: 15px 0 0 0;
     margin-left: 50px;
-}
+  }
 
-.squirtle {
+  .squirtle {
     width: 90px;
-}
+  }
 
-.pikachu {
+  .pikachu {
     width: 90px;
-}
+  }
 
-.charizard {
+  .charizard {
     width: 90px;
-}
+  }
 
-.botoncitoDos{
+  .botoncitoDos {
     width: 100px;
     padding: 2px;
     margin: 10px;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 20px;
     letter-spacing: 2px;
-}
+  }
 
-.pTarjetas {
+  .pTarjetas {
     font-size: 20px;
-}
+  }
 
-.Stock {
+  .Stock {
     font-size: 16px;
     width: 150px;
-}
+  }
 
-.botoncitoDosFuego {
+  .botoncitoDosFuego {
     width: 100px;
     padding: 2px;
     margin: 10px;
-}
+  }
 
-.tituloCuatro {
+  .tituloCuatro {
     font-size: 50px;
     height: auto;
     padding-top: 10px[];
-}
+  }
 
-.pCuatro {
+  .pCuatro {
     font-size: 20px;
     padding: 10px;
-}
+  }
 
-.conteinerCuatro {
+  .conteinerCuatro {
     margin: 50px;
     padding: 75px 60px 75px 60px;
-}
+  }
 
-.bFinalizar {
+  .bFinalizar {
     margin: 20px 0 0 32%;
-}
-
+  }
 }
